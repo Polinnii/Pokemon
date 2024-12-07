@@ -16,5 +16,5 @@ x = option_1
 y = option_2
 z = option_3
 
-fig = px.scatter_3d(df, x=x, y=y, z=z, color=option_4)
+fig = px.scatter(df, x=x, y=y,  color=option_4)
 st.plotly_chart(fig)
